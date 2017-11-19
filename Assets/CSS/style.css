@@ -19,8 +19,9 @@ header {
 #box {
 	background-color: #4aaaa5;
     border-style: solid;
-    border-width: 20px;
-    border-color: #4aaaa5;
+    border-width: 1px;
+    border-color: gold;
+    padding: 19px;
     margin-left: 227px;
     text-align: center;
 }
@@ -45,7 +46,7 @@ header nav li {
 	float:left;
 	padding:10px;
 	list-style-type:none;
-	border-right: 1px solid #bbb;
+	border-right: 1px solid gold;
 }
 
 /* Remember NOT to include a space after :*/
@@ -71,7 +72,7 @@ header nav li a {
 	padding: 20px;
 	margin: 0 auto;
 	float: left;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 
 h2 {
@@ -86,7 +87,7 @@ h2 {
 	float: left;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #cccccc;
+	border-color: gold;
 }
 
 p {
@@ -98,7 +99,7 @@ p {
 #line {
 	border-width: 1px;
 	border-style: solid;
-	border-color: #cccccc;
+	border-color: gold;
 }
 
 aside {
@@ -118,7 +119,7 @@ h3 {
 #line2 {
 	border-width: 1px;
 	border-style: solid;
-	border-color: #cccccc;
+	border-color: gold;
 }
 
 aside ul {
@@ -137,7 +138,7 @@ aside li {
 
 .footer {
 	height: 90px;
-	background-color: #666666;
+	background-color: #979C9C;
 	border-top-color: #4aaaa5;
 	border-top-style: solid;
 	border-top-width: 10px;
@@ -158,7 +159,7 @@ input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: 1px solid gold;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -169,7 +170,7 @@ input[type=submit] {
 	margin-top: 20px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #cccccc;
+	border-color: gold;
 	position: relative;
 }
 
@@ -179,7 +180,7 @@ input[type=submit] {
 	margin-top: 20px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #cccccc;
+	border-color: gold;
 	position: relative;
 }
 
@@ -223,4 +224,10 @@ input[type=submit] {
 	color: #ffffff;
 	margin: 385px 0 0 353px;
 	text-align: center;
+}
+
+.goldline {
+	border-width: 1px;
+	border-style: solid;
+	border-color: gold;
 }
